@@ -8,3 +8,9 @@ Virus-Host interactions is the second key aspect, to forecast potential proteins
 Current computational prediction methods for novel viruses are based only on protein sequences. We have implemented a method allowing to combine protein sequence analysis together with Disease phenotypes (i.e., symptoms).
 
 Results: We developed a tool and an application which has two major functionalities. The tool can  predict and recognize the origin of a Virus RNA sequence and the tool can allow it to detect new mutation locations in the sequence. Also the tool is able to perform protein alignment and homogeneity calculation, a method which is associated with a Phenotype analysis inspired by Natural language recognition techniques. 
+
+
+The tool is composed of a python script proposed in this github repository and of a FPGA board ARTY which control the embedded AI.
+The bistream and software to programm the board is also provided in this github.
+
+The report done for EOSC project is showing also how to use the application.
